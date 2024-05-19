@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bebas {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none !important;
+}
+
+.big {
+  width: 650px;
+  height: 650px;
+  transition: 1s ease-out;
+  position: relative;
+  left: -325px;
+  /* transform: rotate(30deg); */
+}
+
+.small1 {
+  position: absolute;
+  top: 20px;
+  left: 240px;
+  transform: translate(-50%) rotate(-22deg);
+}
+.small2 {
+  position: absolute;
+  top: 325px;
+  left: 550px;
+  transform: translate(-50%, -50%) rotate(-20deg);
+}
+.small3 {
+  position: absolute;
+  top: 630px;
+  left: 245px;
+  transform: translate(-50%) rotate(-20deg);
+}
+.small {
+  width: 150px;
+  height: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns {
+  width: 400px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  color: #f1f1f1;
+  border-radius: 20px;
+  outline: none;
+  width: 140px;
+}
